@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	set name(name){
-		this.name = name;
+		this.name = name.trim();
 	}
 	get name(){
 		return this.name;
